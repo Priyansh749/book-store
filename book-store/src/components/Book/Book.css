@@ -1,0 +1,56 @@
+.books-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .book {
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    max-width: 100%;
+    list-style-type: none;
+  }
+  
+  .card1 {
+    margin: auto;
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+    box-shadow: 5px 5px 10px #ccc;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card1 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card1 article,
+  .card1 h4,
+  .card1 p {
+    margin: 5px 0;
+  }
+  
+  .card1 h2 {
+    margin-top: auto;
+  }
+  
+  /* .card1 .MuiButton-root {
+    margin-top: auto;
+  }
+   */
+  @media (max-width: 768px) {
+    .book {
+      width: 100%;
+    }
+  }
